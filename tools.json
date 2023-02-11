@@ -1,0 +1,30 @@
+[
+
+	{
+		"name": "Explain - ELI5",
+		"description": "Explain the selected text like I'm 5",
+		"prompt": "Explain the memorised text like I'm 5 years old",
+		"tags": ["platform/web", "usecase/general"]
+	},
+	{
+		"name": "Turn into twitter thread",
+		"description": "Repurpose the selection into a twitter thread",
+		"prompt": "convert the memorised text into a twitter thread. Start the thread with a catchy 2 - 3 line hook.",
+		"tags": ["platform/twitter", "usecase/repurpose", "usecase/summarization"]
+	},
+	{
+		"name": "Write article",
+		"description": "Build a new article based on the contents of the selection",
+		"prompt": "Pretend you are an experienced blogger who likes to write in a concise but easy-to-read language using commonly spoken words.",
+		"tags": ["platform/blog", "usecase/repurpose", "usecase/writing"]
+
+	},
+	{
+		"name": "Extract hashtags and topics",
+		"description": "Extract topics and create hashtags for the selection",
+		"prompt": "Pretend you are an experienced social media marketer who often creates viral posts. Create upto 10 hashtags from the memorised text, using a combination of frequently used words and popular topics that match or are related to the memorised text. Also list those topics.",
+		"tags": ["platform/All Socials", "usecase/helpers", "usecase/other/marketing"]
+
+	}
+
+]
