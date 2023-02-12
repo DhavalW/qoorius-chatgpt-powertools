@@ -10,12 +10,18 @@
 		"name": "Turn into twitter thread",
 		"description": "Repurpose the selection into a twitter thread",
 		"prompt": "convert the memorised text into a twitter thread. Start the thread with a catchy 2 - 3 line hook.",
-		"tags": ["platform/twitter", "usecase/repurpose", "usecase/summarization"]
+		"tags": ["platform/twitter", "usecase/repurpose"]
+	},
+	{
+		"name": "Turn into 5 tweets",
+		"description": "Repurpose the selection into a twitter thread",
+		"prompt": "convert the memorised text into 5 different and catchy twitter tweets. Include 3 appropriate hashtags per tweet, based on the combination of words most likely to be used on twitter.",
+		"tags": ["platform/twitter", "usecase/repurpose"]
 	},
 	{
 		"name": "Write article",
 		"description": "Build a new article based on the contents of the selection",
-		"prompt": "Pretend you are an experienced blogger who likes to write in a concise but easy-to-read language using commonly spoken words.",
+		"prompt": "Pretend you are an experienced blogger who likes to write in a concise but easy-to-read language using commonly spoken words. Create a new blog article using the memorised text. Provide a catchy headline, a single para summary introduction, a concise outline, detailed bodycopy that expands on the outline, followed by a conclusion. Attribute any quotes to their respective authors, wherever applicable. Use a {{formal/casual/comic/poetic}} tone.",
 		"tags": ["platform/blog", "usecase/repurpose", "usecase/writing"]
 
 	},
@@ -23,7 +29,7 @@
 		"name": "Extract hashtags and topics",
 		"description": "Extract topics and create hashtags for the selection",
 		"prompt": "Pretend you are an experienced social media marketer who often creates viral posts. Create upto 10 hashtags from the memorised text, using a combination of frequently used words and popular topics that match or are related to the memorised text. Also list those topics.",
-		"tags": ["platform/All Socials", "usecase/helpers", "usecase/other/marketing"]
+		"tags": ["platform/socials", "usecase/helpers", "function/marketing"]
 
 	}
 
