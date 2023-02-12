@@ -21,7 +21,7 @@
 	{
 		"name": "Write article",
 		"description": "Build a new article based on the contents of the selection",
-		"prompt": "Pretend you are an experienced blogger who likes to write in a concise but easy-to-read language using commonly spoken words. Create a new blog article using the memorised text. Provide a catchy headline, a single para summary introduction, a concise outline, detailed bodycopy that expands on the outline, followed by a conclusion. Attribute any quotes to their respective authors, wherever applicable. Use a {{formal/casual/comic/poetic}} tone.",
+		"prompt": "Pretend you are an experienced blogger who likes to write in a concise but easy-to-read language using commonly spoken words. Create a new blog article using the memorised text. Provide a catchy headline, a single para summary introduction, a concise outline, detailed bodycopy that expands on the outline, followed by a conclusion. Attribute any quotes to their respective authors, wherever applicable. Reword to avoid using phrases from the memorised text directly, but while keeping the same meaning - except when directly quoting a person. Use a {{Tone ? (formal/casual/comic/poetic/<other>)}} tone.",
 		"tags": ["platform/blog", "usecase/repurpose", "usecase/writing"]
 
 	},
